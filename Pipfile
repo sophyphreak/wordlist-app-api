@@ -6,10 +6,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==2.1"
-djangorestframework = "==3.8.2"
+django = "*"
 gunicorn = "*"
 django-heroku = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.7"
