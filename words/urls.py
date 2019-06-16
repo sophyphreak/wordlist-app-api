@@ -1,8 +1,10 @@
 from django.urls import path
+from rest_framework.routers import SimpleRouter
 
-from .views import WordList, WordDetail
+from .views import UserViewSet, WordViewSet
 
-urlpatterns = [
-    path('<int:pk>/', WordDetail.as_view()),
-    path('', WordList.as_view()),
-]
+router = SimpleRouter()
+router.register('users', UserViewSet, base_name='users')
+router.register('', WordViewSet, base_name='words')
+
+urlpatterns = router.urls
