@@ -12,6 +12,9 @@ django-heroku = "*"
 djangorestframework = "*"
 django-rest-auth = "*"
 django-allauth = "*"
+coreapi = "*"
+pyyaml = "*"
+django-rest-swagger = "*"
 
 [requires]
 python_version = "3.7"
