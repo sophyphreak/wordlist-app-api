@@ -15,6 +15,7 @@ django-allauth = "*"
 coreapi = "*"
 pyyaml = "*"
 django-rest-swagger = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "*"
