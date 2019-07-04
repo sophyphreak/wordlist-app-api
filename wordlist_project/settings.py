@@ -151,5 +151,6 @@ SWAGGER_SETTINGS = {
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://peaceful-bryce-canyon-70697.herokuapp.com/"
+    "https://peaceful-bryce-canyon-70697.herokuapp.com/",
+    "https://v9-bears-team-13.netlify.com/"
 ]
