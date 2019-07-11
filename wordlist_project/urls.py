@@ -15,6 +15,7 @@ urlpatterns = [
     path('api/v1/rest-auth/', include('rest_auth.urls')),
     path('api/v1/rest-auth/registration/',
         include('rest_auth.registration.urls')),
+    path('', include('django.contrib.auth.urls')),
     path('docs/', include_docs_urls(title=API_TITLE, 
                                     description=API_DESCRIPTION)),
     # path('schema/', schema_view),
